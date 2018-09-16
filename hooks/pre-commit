@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+console.log('refusing all commits!')
+process.exit(0)

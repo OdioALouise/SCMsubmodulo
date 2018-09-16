@@ -1,0 +1,58 @@
+Arguments: 
+  /home/sebastian/.nvm/versions/node/v10.9.0/bin/node /usr/share/yarn/bin/yarn.js add --dev shared-gitt-hooks
+
+PATH: 
+  /home/sebastian/.nvm/versions/node/v10.9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/java:/usr/jboss:/usr/jboss/jboss-eap-7.1:/usr/jboss/jboss-eap-7.1/bin:/usr/java/jdk1.8.0_181
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.9.0
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/shared-gitt-hooks: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1085:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "scmsubmodulo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "shared-git-hooks": "^1.2.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OdioALouise/SCMsubmodulo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/OdioALouise/SCMsubmodulo/issues"
+    },
+    "homepage": "https://github.com/OdioALouise/SCMsubmodulo#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
