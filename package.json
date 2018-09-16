@@ -1,0 +1,22 @@
+{
+  "name": "scmsubmodulo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "shared-git-hooks": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdioALouise/SCMsubmodulo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdioALouise/SCMsubmodulo/issues"
+  },
+  "homepage": "https://github.com/OdioALouise/SCMsubmodulo#readme"
+}
